@@ -1,5 +1,20 @@
-cd client
-npm init vite@latest . --template react
-npm install
-npm install axios react-router-dom
-npm install -D tailwindcss
+{
+  "name": "client",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9"
+  }
+}
